@@ -69,7 +69,7 @@ foreach(_xacro ${_world_xacros})
 endforeach()
 
 # set environment variable GAZEBO_MODEL_PATH
-add_subdirectory(env-hooks)
+##add_subdirectory(env-hooks)
 
 install(
   DIRECTORY scripts/
